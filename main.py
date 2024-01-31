@@ -4,7 +4,7 @@ import requests
 # Set URL
 # Run: 
 # update REST_API_URL to your backend link (currently not dynamic)
-REST_API_URL = "https://inference-gcp-workshop-test.apps.gcp-x7ksq.i0yy.p1.openshiftapps.com/api/predict"
+REST_API_URL = "https://inference-gcp-workshop-test.apps.cluster-8nvgb.8nvgb.gcp.redhatworkshops.io/api/predict"
 
 # Inference!
 def inference(image_path):
