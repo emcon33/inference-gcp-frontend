@@ -13,18 +13,18 @@ Sample Frontend Input Image:
   </em>
 </p>
 
-Thisworkshop adds onto a prior deployment for this backend. This workshop ads a Gradio based front end to the project. this expects an existing ROSA cluster and an existing backend deployment in a project. 
-Backend Repo https://github.com/emcon33/inference-rosa-workshop
+Thisworkshop adds onto a prior deployment for this backend. This workshop ads a Gradio based front end to the project. this expects an existing GCP cluster and an existing backend deployment in a project. 
+Backend Repo https://github.com/emcon33/inference-gcp-workshop
 
-OpenShift/ROSA Web Front End instructions (deck to be created) 
+OpenShift/GCP Web Front End instructions (deck to be created) 
 1. Fork this repo to your github account, you will have to modify the URL in this file to your backend and hard code the link prior to the build.
-Fork this repo: https://github.com/emcon33/inference-rosa-frontend
+Fork this repo: https://github.com/emcon33/inference-gcp-frontend
 Ensure it is public
 
 
 2. Update the URL from your backend and then Deploy via Git source to your link. 
 In your fork github repo, edit the main.py update the below link for your backend URL and commit. Then deploy into your project via git import. 
-REST_API_URL = "https://inference-rosa-workshop-test2.apps.rosa-wz89j.pbio.p1.openshiftapps.com/api/predict"
+REST_API_URL = "https://inference-gcp-workshop-test2.apps.GCP-wz89j.pbio.p1.openshiftapps.com/api/predict"
 
 3. Use the two embeded images to test the connection. You can also upload test images from the repo page. 
 
