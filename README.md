@@ -1,7 +1,14 @@
 # inference-gcp-frontend
-# This adds a Gradio Frontend to the project prior project
+# This adds a Gradio Frontend to prior workshop inference backend
 Upload in your images to see the predictions made by the model in a web interface.
 Mod by Andrew Grimes and Jim Garrett of Red Hat 
+
+Red Hat Demo System Lab OCP4 on GCP 
+<p align="left">
+  <a href="#"><img src="./gcp.jpg" width="200"></a> <br />
+  <em> 
+  </em>
+</p>
 
 This is a Gradio web front end to an API accessed backend to upload "test images" to a container based 2 tier web-app. You can build out multiple front ends for generational access and create pipeline and webhook driven CI/CD process to simulate onboing development and deployment of projects. You can form the project to your own github page to do additonal development. we recommend you have a github project available for the web front end addition. 
 
@@ -13,7 +20,7 @@ Sample Frontend Input Image:
   </em>
 </p>
 
-Thisworkshop adds onto a prior deployment for this backend. This workshop ads a Gradio based front end to the project. this expects an existing GCP cluster and an existing backend deployment in a project. 
+This workshop adds onto a prior deployment for this backend. This workshop ads a Gradio based front end to the project. this expects an existing GCP cluster and an existing backend deployment in a project. 
 Backend Repo https://github.com/emcon33/inference-gcp-workshop
 
 OpenShift/GCP Web Front End instructions (deck to be created) 
