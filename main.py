@@ -4,7 +4,7 @@ import requests
 # Set URL
 # Run: 
 # update REST_API_URL to your backend link (currently not dynamic)
-REST_API_URL = "https://inference-rosa-workshop-test.apps.rosa-x7ksq.i0yy.p1.openshiftapps.com/api/predict"
+REST_API_URL = "https://inference-gcp-workshop-test.apps.gcp-x7ksq.i0yy.p1.openshiftapps.com/api/predict"
 
 # Inference!
 def inference(image_path):
@@ -33,8 +33,8 @@ inputs = gr.inputs.Image(type='filepath')
 outputs = gr.outputs.Label(type="confidences",num_top_classes=5)
 
 # Define style
-title = "ROSA Workshop Gradio Front End"
-description = "This is the web front end to add a web interfface to an AI app on ROSA for image classification based on ResNet18. This is a port of an article linked below"
+title = "gcp Workshop Gradio Front End"
+description = "This is the web front end to add a web interfface to an AI app on OpenShift Dedicated on Google Cloud Platform for image classification based on ResNet18"
 article = "<p style='text-align: center'><a href='https://arxiv.org/abs/1512.03385' target='_blank'>ResNet18 Deep Residual Learning for Image Recognition</a> | <a href='https://github.com/pytorch/vision/blob/main/torchvision/models/resnet.py' target='_blank'>Github Repo</a></p>"
 
 # Run inference
