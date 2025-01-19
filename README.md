@@ -2,6 +2,7 @@
 # This adds a Gradio Frontend to prior workshop inference backend
 Upload in your images to see the predictions made by the model in a web interface.
 Mod by Andrew Grimes and Jim Garrett of Red Hat 
+Verified Working 01/25/25
 
 Red Hat Demo System Lab OCP4 on GCP 
 <p align="left">
