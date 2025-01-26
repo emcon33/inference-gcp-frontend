@@ -3,6 +3,8 @@
 Upload in your images to see the predictions made by the model in a web interface.
 Mod by Andrew Grimes and Jim Garrett of Red Hat 
 Verified Working 01/19/25
+No Longer Maintained 
+
 
 Red Hat Demo System Lab OCP4 on GCP 
 <p align="left">
